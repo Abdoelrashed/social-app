@@ -8,13 +8,13 @@ import Home from "./components/Home/Home";
 import { HeroUIProvider } from "@heroui/react";
 import Profile from "./components/Profile/Profile";
 import AuthContextProvider from "./Context/AuthContext";
-import ProtectedRoute from "./components/protectedRoute/protectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import PostDetails from "./components/PostDetails/PostDetails";
 import { ToastContainer } from "react-toastify";
 import DetectOfline from "./components/DetectOffline/DetectOfline";
 import { useNetworkState } from "react-use";
-import ProtectedAuthRoutes from "./components/protectedRoute/ProtectedAuthRoutes";
+import ProtectedAuthRoutes from "./components/ProtectedRoute/ProtectedAuthRoutes";
 
 const router = createBrowserRouter([
   {
