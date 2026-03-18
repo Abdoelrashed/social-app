@@ -58,7 +58,6 @@ const router = createBrowserRouter([
         element: (
           <ProtectedAuthRoutes>
             <Register />
-            //{" "}
           </ProtectedAuthRoutes>
         ),
       },
@@ -67,7 +66,6 @@ const router = createBrowserRouter([
         element: (
           <ProtectedAuthRoutes>
             <Login />
-            //{" "}
           </ProtectedAuthRoutes>
         ),
       },
