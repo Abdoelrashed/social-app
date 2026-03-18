@@ -14,7 +14,7 @@ import PostDetails from "./components/PostDetails/PostDetails";
 import { ToastContainer } from "react-toastify";
 import DetectOffline from "./components/DetectOffline/DetectOffline";
 import { useNetworkState } from "react-use";
-import ProtectedAuthRoutes from "./components/ProtectedRoute/ProtectedAuthRoutes";
+import ProtectedAuthRoutes from "./components/ProtectedAuthRoutes/ProtectedAuthRoutes";
 
 const router = createBrowserRouter([
   {
