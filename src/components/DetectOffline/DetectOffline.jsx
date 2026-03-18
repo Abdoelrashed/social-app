@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function DetectOfline() {
+export default function DetectOffline() {
   return (
     <>
       {!online && (

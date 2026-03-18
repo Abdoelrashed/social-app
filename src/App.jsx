@@ -12,7 +12,7 @@ import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 import PostDetails from "./components/PostDetails/PostDetails";
 import { ToastContainer } from "react-toastify";
-import DetectOfline from "./components/DetectOffline/DetectOfline";
+import DetectOffline from "./components/DetectOffline/DetectOffline";
 import { useNetworkState } from "react-use";
 import ProtectedAuthRoutes from "./components/ProtectedRoute/ProtectedAuthRoutes";
 
@@ -81,7 +81,7 @@ export default function App() {
 
   return (
     <>
-      {!online && <DetectOfline />}
+      {!online && <DetectOffline />}
       <QueryClientProvider client={query}>
         <AuthContextProvider>
           <HeroUIProvider>
